@@ -1,11 +1,7 @@
 @import '../base/variables';
 
-main {
-	max-width: $content-width;
-  margin: 0 auto;
-	color: $font-color;
-  display: flex;
-	h1 {
-		font-size: $header-size;
-	}
+.navbar {
+	background: $primary-color;
+	color: $tertiary-color;
+	padding: 15px;
 }

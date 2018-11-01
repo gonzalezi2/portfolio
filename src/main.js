@@ -1,7 +1,15 @@
-(function mainScript() {
-    let num = 0;
-    let name = 'Ivan';
-    let call = function call() {
-        return `The num is ${num} and the name ${name}`;
-    };
+(function geolocator() {
+    if("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition((position) => {
+            console.log(position.coords.latitude, position.coords.longitude);
+            let lat = position.coords.latitude;
+            let long = position.coords.longitude;
+            let appid = '1ea9e9eba28e8ef98d526583b03739ea';
+            fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&APPID=${appid}`)
+                .then(res => {
+                    console.log(res);
+                });
+        });
+    }
 })();
+

@@ -9,3 +9,17 @@ $tertiary-color: #1CCAD8;
 // Fonts
 $heading-font: 'Nunito', sans-serif;
 $text-font: 'Merriweather', serif;
+
+// Grid
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 480px,
+    md: 768px,
+    lg: 1024px
+);
+
+// Border Radius
+$border-radius: 6px !default;

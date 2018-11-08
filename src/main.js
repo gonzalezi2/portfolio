@@ -7,7 +7,10 @@
             let appid = '1ea9e9eba28e8ef98d526583b03739ea';
             fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&APPID=${appid}`)
                 .then(res => {
-                    console.log(res);
+                    return res.json();
+                })
+                .then(response => {
+                    console.log(response);
                 });
         });
     }

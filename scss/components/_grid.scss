@@ -1,3 +1,12 @@
 .container {
-    width: 100%;
+    display: grid;
+    grid-template: none, auto / repeat($grid-columns, 1fr);
+}
+
+.row {
+    grid-auto-flow: row;
+}
+
+.col-6 {
+    grid-column-end: span $grid-columns / 2;
 }

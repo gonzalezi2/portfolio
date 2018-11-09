@@ -1,6 +1,15 @@
+@import '../base/variables';
+
 .container {
-    display: grid;
-    grid-template: none, auto / repeat($grid-columns, 1fr);
+    // display: grid;
+    // grid-template: none, auto / repeat($grid-columns, 1fr);
+    padding: 10px;
+    @media ( map-get($grid-breakpoints, sm )){
+        width: 400px;
+    }
+    @media ( map-get($grid-breakpoints, sm )){
+        width: 600px;
+    }
 }
 
 .row {

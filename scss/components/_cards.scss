@@ -1,7 +1,14 @@
 @import '../base/variables';
 
+.card-grid {
+    display: grid;
+    row-gap: 10px;
+    @media ( map-get($grid-breakpoints, md )){
+        grid-template-columns: repeat(3, 1fr);  
+        column-gap: 10px;      
+    }
+}
 .card {
     background: #f2f2f2;
     border-radius: $border-radius;
-    height: 100px;
 }

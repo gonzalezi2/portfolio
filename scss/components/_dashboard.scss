@@ -1,0 +1,22 @@
+.dashboard {
+    height: 30vh;
+    margin-bottom: -30px;
+    overflow: hidden;
+    .sky {
+        background: skyblue;
+        height: 70%;
+        position: relative;
+        .sun {
+            position: absolute;
+            border-radius: 100%;
+            height: minmax(65px, 9vw);
+            width: minmax(65px, 9vw);
+            background: yellow;
+            box-shadow: 0 0 45px orange, 0 0 100px orangered;
+        }
+    }
+    .land {
+        background: rgb(110, 86, 86);
+        height: 30%;
+    }
+}

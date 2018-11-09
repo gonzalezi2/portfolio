@@ -14,22 +14,38 @@
     <body>
         <nav class="navbar">
             <i class="fas fa-sun"></i>
+            <span id="city"></span> / <span id="temp"></span> / <span id="weather"></span>         
         </nav>
         <main>
+            <div class="dashboard">
+                <div class="sky">
+                    <div class="sun"></div>
+                </div>
+                <div class="land"></div>
+            </div>
+            <div class="container">
+                <div class="card-grid">
+                    <div id="user" class="card">
+                        <h2>User Profile</h2>
+                        <div class="bio">
 
-            <div id="user">
-                <h2>User Profile</h2>
+                        </div>
+                        <div class="social">
+                            <p><i class="fab fa-github"></i> <a href="#">gonzalezi2</a></p>
+                            <p><i class="fab fa-linkedin-in"></i> <a href="#">ivanmgonzalez</a></p>
+                        </div>
+                    </div>
+                    <div id="skills" class="card">
+                        <h2>Skills and Education</h2>
+                    </div>
+                    <div id="projects" class="card">
+                        <h2>Projects</h2>
+                    </div>
+                </div>
             </div>
-            <div id="skills">
-                <h2>Skills and Education</h2>
-            </div>
-            <div id="projects">
-                <h2>Projects</h2>
-            </div>
-
         </main>
         <footer>
-
+            <p>Copyright &copy; 2018 Ivan Gonzalez</p>
         </footer>
         <script src="js/script.js"></script>
     </body>

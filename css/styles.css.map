@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACQ,kGAA0F,CAA1F,kGAA0F,CAA1F,kGAA0F,CAA1F,kGAA0F,CAA1F,kGAA0F,CCClG,IAAK,CACD,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,IAAI,CAChB,WAAW,CDIH,oBAAqB,CEVjC,UAAW,CACP,OAAO,CAAE,IAAI,CACb,aAAa,CAAE,yBAAuC,CAG1D,IAAK,CACD,cAAc,CAAE,GAAG,CAGvB,MAAO,CACH,eAAe,CAAE,MAAsB,CCR3C,OAAQ,CACP,UAAU,CHCK,OAAO,CGAtB,KAAK,CHEW,OAAO,CGDvB,OAAO,CAAE,IAAI,CCHd,iBAAuB,CACnB,WAAW,CJMA,mBAAoB,CKPnC,UAAW,CACP,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,cAAc,CAEzC,KAAM,CACF,UAAU,CAAE,OAAO,CACnB,aAAa,CLgBD,GAAG,CKff,MAAM,CAAE,KAAK",
-"sources": ["../scss/base/_variables.scss","../scss/base/_reset.scss","../scss/components/_grid.scss","../scss/components/_navigation.scss","../scss/components/_typography.scss","../scss/components/_cards.scss"],
-"names": [],
-"file": "styles.css"
-}

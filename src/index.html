@@ -1,52 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- meta tags -->
-        <meta charset="utf-8">
-        <meta name="description" content="My own personal portfolio">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<head>
+		<!-- meta tags -->
+		<meta charset="utf-8">
+		<meta name="description" content="My own personal portfolio">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- styles and other links -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-        <title>Ivan Gonzalez</title>
-    </head>
-    <body>
-        <nav class="navbar">
-            <i class="fas fa-sun"></i>
-            <span id="city"></span> / <span id="temp"></span> / <span id="weather"></span>         
-        </nav>
-        <main>
-            <div class="dashboard">
-                <div class="sky">
-                    <div class="sun"></div>
-                </div>
-                <div class="land"></div>
-            </div>
-            <div class="container">
-                <div class="card-grid">
-                    <div id="user" class="card">
-                        <h2>User Profile</h2>
-                        <div class="bio">
-
-                        </div>
-                        <div class="social">
-                            <p><i class="fab fa-github"></i> <a href="#">gonzalezi2</a></p>
-                            <p><i class="fab fa-linkedin-in"></i> <a href="#">ivanmgonzalez</a></p>
-                        </div>
-                    </div>
-                    <div id="skills" class="card">
-                        <h2>Skills and Education</h2>
-                    </div>
-                    <div id="projects" class="card">
-                        <h2>Projects</h2>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <p>Copyright &copy; 2018 Ivan Gonzalez</p>
-        </footer>
-        <script src="app.bundle.js"></script>
-    </body>
+		<!-- styles and other links -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+		<title>Ivan Gonzalez</title>
+	</head>
+	<body>
+		<nav class="navbar">
+			<i class="fas fa-sun"></i>
+			<span id="city"></span> / <span id="temp"></span> / <span id="weather"></span>         
+		</nav>
+		<main>
+			<div id="dashboard">
+			</div>
+			<div class="container">
+				<div class="card-grid">
+					<div id="user" class="card">
+						<div class="header">
+							<h2>User Profile</h2>
+						</div>
+						<div class="body">
+							<div class="bio">
+								<div class="profile">
+									<img src="./img/profile_thmb.jpg" alt="profile image">                                
+								</div>
+								<div class="description">
+									<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+										Ea officiis vitae deserunt, obcaecati placeat odio at
+										tempore quidem. Error ratione blanditiis doloribus
+										consequuntur ipsa minus perferendis numquam voluptatum,
+										quis velit?
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="footer">
+							<div class="social">
+								<p><i class="fab fa-github"></i> <a href="#">gonzalezi2</a></p>
+								<p><i class="fab fa-linkedin-in"></i> <a href="#">ivanmgonzalez</a></p>
+							</div>
+						</div>
+					</div>
+					<div id="skills" class="card">
+						<div class="header">
+							<h2>Skills and Education</h2>
+						</div>
+					</div>
+					<div id="projects" class="card">
+						<div class="header">
+							<h2>Projects</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>Copyright &copy; 2018 Ivan Gonzalez</p>
+		</footer>
+	</body>
 </html>

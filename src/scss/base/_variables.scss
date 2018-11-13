@@ -3,6 +3,7 @@
 
 // Colors
 $primary-color: #587291;
+$primary-color-dark: darken($primary-color, 10%);
 $secondary-color: #2F97C1;
 $tertiary-color: #1CCAD8;
 
@@ -23,3 +24,4 @@ $grid-breakpoints: (
 
 // Border Radius
 $border-radius: 6px !default;
+$box-shadow: 0 2px 3px hsla(0, 0%, 0%, 0.15) !default;

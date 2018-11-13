@@ -11,4 +11,22 @@
 .card {
     background: #f2f2f2;
     border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    .header, .body, .footer {
+        padding: 0 10px;
+    }
+    .body {
+        background: #fff;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .profile {
+        & > img {
+            width: 150px;
+            margin: 0 auto;
+            display: block;
+            border-radius: 50%;
+            filter: grayscale(100%);
+        }
+    }
 }

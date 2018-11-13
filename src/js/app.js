@@ -1,3 +1,5 @@
+import '../scss/styles.scss';
+
 (function geolocator() {
     if("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition((position) => {
@@ -14,6 +16,11 @@
                     document.querySelector('#city').innerHTML = response.name;
                     document.querySelector('#temp').innerHTML = `${response.main.temp} &deg;`;
                     document.querySelector('#weather').innerHTML = response.weather[0].main;
+                    if(response.weather[0].main == 'Rain') {
+                        document.querySelector('#dashboard').classList.add('rain');
+                        document.querySelector('#dashboard').setAttribute('style',
+                        'background-image: url("../img/rain.svg")');
+                    }
                 });
         });
     }

@@ -1,13 +1,14 @@
 // Base
 
-@import "base/variables";
 @import "base/reset";
+@import "base/variables";
 
 // Components
 
-@import "components/dashboard";
 @import "components/buttons";
+@import "components/cards";
+@import "components/dashboard";
+@import "components/footer";
 @import "components/grid";
 @import "components/navigation";
 @import "components/typography";
-@import "components/cards";

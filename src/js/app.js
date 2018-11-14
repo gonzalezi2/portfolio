@@ -1,4 +1,9 @@
 import '../scss/styles.scss';
+import * as triangleSVG from '../img/triangles.svg';
+import * as rainSVG from '../img/rain.svg';
+import * as wavesSVG from '../img/waves.svg';
+
+//document.body.setAttribute('style', `background-image: url('${wavesSVG}')`);
 
 (function geolocator() {
     if("geolocation" in navigator) {
@@ -19,7 +24,7 @@ import '../scss/styles.scss';
                     if(response.weather[0].main == 'Rain') {
                         document.querySelector('#dashboard').classList.add('rain');
                         document.querySelector('#dashboard').setAttribute('style',
-                        'background-image: url("../img/rain.svg")');
+                        `background-image: url(${rainSVG})`);
                     }
                 });
         });

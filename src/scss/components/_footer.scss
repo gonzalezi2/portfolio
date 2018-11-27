@@ -1,8 +1,10 @@
 footer {
-  background: $primary-color;
+  background: $background-color;
   padding: 15px 10px;
   text-align: center;
   p {
     margin: 0;
+    font-family: $heading-font;
+    color: $primary-color-dark;
   }
 }

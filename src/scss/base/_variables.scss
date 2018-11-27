@@ -2,15 +2,20 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Nunito:300,400,700');
 
 // Colors
-$primary-color: #587291;
+$primary-color: #C0B283;
 $primary-color-dark: darken($primary-color, 10%);
-$secondary-color: #2F97C1;
+$secondary-color: #DCD0C0;
 $secondary-color-dark: darken($secondary-color, 10%);
-$tertiary-color: #1CCAD8;
+$accent-color: #373737;
+$background-color: #f4f4f4;
 
 // Fonts
 $heading-font: 'Nunito', sans-serif;
 $text-font: 'Merriweather', serif;
+
+// Border Radius
+$border-radius: 6px !default;
+$box-shadow: 0 2px 3px darken($background-color, 10%) !default;
 
 // Grid
 $grid-columns: 12 !default;
@@ -22,7 +27,3 @@ $grid-breakpoints: (
     md: 768px,
     lg: 1024px
 );
-
-// Border Radius
-$border-radius: 6px !default;
-$box-shadow: 0 2px 3px hsla(0, 0%, 0%, 0.15) !default;

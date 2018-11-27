@@ -1,7 +1,8 @@
 @import '../base/variables';
 
 .navbar {
-	background: $primary-color;
-	color: $tertiary-color;
+	background: $background-color;
+	color: $primary-color-dark;
 	padding: 15px;
+	box-shadow: $box-shadow;
 }

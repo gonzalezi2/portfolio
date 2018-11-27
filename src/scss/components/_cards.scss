@@ -9,18 +9,26 @@
     }
 }
 .card {
-    background: $tertiary-color;
+    //background: $background-color;
     border-radius: $border-radius;
     box-shadow: $box-shadow;
+    overflow: hidden;
     .header, .body, .footer {
         padding: 15px 10px;
     }
+    .header {
+        background-color: darken($background-color, 3%);
+    }
     .header h2 {
         margin: 0;
+        color: $accent-color;
     }
-    .body {
-        background: $secondary-color;
-    }
+    // .body {
+    //     background: $background-color;
+    // }
+    // .footer {
+    //     background-color: lighten($background-color, 3%);
+    // }
     .profile {
         & > img {
             width: 150px;
@@ -29,5 +37,15 @@
             border-radius: 50%;
             filter: grayscale(100%);
         }
+    }
+    h2, h3, h4, h5, h6 {
+        margin: 0;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    h3 {
+        color: $primary-color;
     }
 }

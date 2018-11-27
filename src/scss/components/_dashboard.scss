@@ -1,9 +1,9 @@
 #dashboard {
     height: 30vh;
-    margin-bottom: -60px;
+    margin-bottom: -150px;
     overflow: hidden;
     &.rain {
-        background: $primary-color-dark;
+        background: $background-color;
     }
     // .sky {
     //     background: skyblue;
